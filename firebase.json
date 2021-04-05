@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist\\nexa-prototype",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "nexa-prototype": {
+      "hosting": {
+        "nexa-prototype": [
+          "nexa-prototype"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "nexa-prototype"
+  }
+}
