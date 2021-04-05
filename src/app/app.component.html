@@ -21,8 +21,20 @@
     </div>
     <div fxFlex="5"></div>
   </div>
-  <!-- Content -->
-  <div fxLayout="row wrap">
-    <router-outlet></router-outlet>
+</div>
+<br />
+<br />
+<!-- Content -->
+<div fxLayout="row wrap">
+  <div fxFlex="10"></div>
+  <div fxFlex>
+    <div fxFlex>
+      <router-outlet></router-outlet>
+    </div>
+    <div fxFlex="10"></div>
+    <div fxFlex="30">
+      <app-fast-info></app-fast-info>
+    </div>
   </div>
+  <div fxFlex="10"></div>
 </div>

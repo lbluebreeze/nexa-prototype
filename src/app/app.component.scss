@@ -2,12 +2,14 @@
   background-color: #17ABD9;
   color: white;
 }
-img {
-  width: 100%;
-}
 
 ::ng-deep {
   body {
+    background-color: #F2F2F2;
     margin: 0;
+  }
+
+  img {
+    width: 100%;
   }
 }
