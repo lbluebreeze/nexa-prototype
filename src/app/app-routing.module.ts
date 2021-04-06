@@ -5,11 +5,11 @@ import { IndexComponent } from './components/index/index.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'index',
+    redirectTo: 'inicio',
     pathMatch: 'full'
   },
   {
-    path: 'index',
+    path: 'inicio',
     component: IndexComponent
   }
 ];
