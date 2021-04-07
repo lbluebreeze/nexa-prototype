@@ -10,8 +10,8 @@
       <div fxFlex="10"></div>
       <div fxFlex>
         <div fxLayout="column">
-          <div fxFlex><strong style="font-family: 'Calibri Light'; font-size: 4em;">WORKEANDO</strong></div>
-          <div fxFlex fxLayoutAlign="end"><span style="font-family: Gabriola; font-size: 4em; font-style: italic;">Somos protectores</span></div>
+          <div fxFlex><strong class="index-title-1">WORKEANDO</strong></div>
+          <div fxFlex fxLayoutAlign="end"><span class="index-title-2">Somos protectores</span></div>
         </div>
       </div>
       <div fxFlex="10"></div>
@@ -22,19 +22,20 @@
     <div fxFlex="5"></div>
   </div>
 </div>
+<p>
+  <mat-toolbar>
+    <div fxFlex fxLayoutAlign="center">
+      <a routerLink="/inicio" fxFlexOffset="1">Inicio</a>
+    </div>
+  </mat-toolbar>
+</p>
 <br />
 <br />
 <!-- Content -->
 <div fxLayout="row wrap">
   <div fxFlex="10"></div>
   <div fxFlex>
-    <div fxFlex>
-      <router-outlet></router-outlet>
-    </div>
-    <div fxFlex="10"></div>
-    <div fxFlex="30">
-      <app-fast-info></app-fast-info>
-    </div>
+    <router-outlet></router-outlet>
   </div>
   <div fxFlex="10"></div>
 </div>
