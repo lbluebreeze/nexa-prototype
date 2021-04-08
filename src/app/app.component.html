@@ -35,7 +35,7 @@
 <div fxLayout="row wrap">
   <div fxFlex="10"></div>
   <div fxFlex>
-    <router-outlet></router-outlet>
+    <router-outlet (activate)="onActivate()"></router-outlet>
   </div>
   <div fxFlex="10"></div>
 </div>
